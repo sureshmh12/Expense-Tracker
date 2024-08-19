@@ -1,0 +1,44 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "start",
+			"path": "speechly_expense_tracker_project-main",
+			"problemMatcher": [],
+			"label": "npm: start - speechly_expense_tracker_project-main",
+			"detail": "react-scripts --openssl-legacy-provider start",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "npm",
+			"script": "build",
+			"path": "speechly_expense_tracker_project-main",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build - speechly_expense_tracker_project-main",
+			"detail": "react-scripts build"
+		},
+		{
+			"type": "npm",
+			"script": "install",
+			"path": "speechly_expense_tracker_project-main",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: install - speechly_expense_tracker_project-main",
+			"detail": "install dependencies from package"
+		},
+		{
+			"type": "npm",
+			"script": "test",
+			"path": "speechly_expense_tracker_project-main",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: test - speechly_expense_tracker_project-main",
+			"detail": "react-scripts test"
+		}
+	]
+}
